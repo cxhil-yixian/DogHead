@@ -15,8 +15,3 @@ cat <<'DOG'
 ▌▓▓▓▄▄▀▀▓▓▓▀▓▓▓▓▓▓▓▓█▓█▓█▓▓▌█
 █▐▓▓▓▓▓▓▄▄▄▓▓▓▓▓▓█▓█▓█▓█▓▓▓▐█
 DOG
-
-echo -e "\n========== README.md ==========\n"
-
-# 直接抓取並輸出 README.md
-curl -sSL "https://raw.githubusercontent.com/cxhil-yixian/DogHead/main/README.md"
