@@ -1,4 +1,7 @@
 #!/bin/bash
+# DogHead.sh
+
+# 顯示狗頭 ASCII 藝術
 cat <<'DOG'
 ░░░░░░░█▐▓▓░████▄▄▄█▀▄▓▓▓▌█
 ░░░░░▄█▌▀▄▓▓▄▄▄▄▀▀▀▄▓▓▓▓▓▌█
@@ -15,4 +18,5 @@ DOG
 
 echo -e "\n========== README.md ==========\n"
 
+# 直接抓取並輸出 README.md
 curl -sSL "https://raw.githubusercontent.com/cxhil-yixian/DogHead/main/README.md"
