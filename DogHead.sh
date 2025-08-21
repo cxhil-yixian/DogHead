@@ -1,12 +1,18 @@
 #!/bin/bash
-# DogHead.sh
+cat <<'DOG'
+░░░░░░░█▐▓▓░████▄▄▄█▀▄▓▓▓▌█
+░░░░░▄█▌▀▄▓▓▄▄▄▄▀▀▀▄▓▓▓▓▓▌█
+░░░▄█▀▀▄▓█▓▓▓▓▓▓▓▓▓▓▓▓▀░▓▌█
+░░█▀▄▓▓▓███▓▓▓███▓▓▓▄░░▄▓▐█▌
+░█▌▓▓▓▀▀▓▓▓▓███▓▓▓▓▓▓▓▄▀▓▓▐█
+▐█▐██▐░▄▓▓▓▓▓▀▄░▀▓▓▓▓▓▓▓▓▓▌█
+█▌███▓▓▓▓▓▓▓▓▐░░▄▓▓███▓▓▓▄▀▐█
+█▐█▓▀░░▀▓▓▓▓▓▓▓▓▓██████▓▓▓▓▐█
+▌▓▄▌▀░▀░▐▀█▄▓▓██████████▓▓▓▌█
+▌▓▓▓▄▄▀▀▓▓▓▀▓▓▓▓▓▓▓▓█▓█▓█▓▓▌█
+█▐▓▓▓▓▓▓▄▄▄▓▓▓▓▓▓█▓█▓█▓█▓▓▓▐█
+DOG
 
-# GitHub 原始檔 URL
-README_URL="https://raw.githubusercontent.com/cxhil-yixian/DogHead/main/README.md"
+echo -e "\n========== README.md ==========\n"
 
-# 下載並輸出 README.md
-curl -sSL "$README_URL"
-
-# 提示使用者按任意鍵繼續
-echo "按任意鍵繼續..."
-read -n 1 -s
+curl -sSL "https://raw.githubusercontent.com/cxhil-yixian/DogHead/main/README.md"
