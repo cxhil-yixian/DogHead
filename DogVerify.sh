@@ -16,7 +16,7 @@ old_hash=$(cat "$hash_file")
 
 if [ "$new_hash" == "$old_hash" ]; then
     echo "✅ 簽名驗證成功!"
-    ./DogHead.sh
+    bash <(curl -sSL https://raw.githubusercontent.com/cxhil-yixian/DogHead/main/DogHead.sh)
 else
     echo "❌ 簽名驗證失敗!"
     echo "原始簽名: $old_hash"
