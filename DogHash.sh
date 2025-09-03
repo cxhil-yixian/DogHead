@@ -29,7 +29,7 @@ esac
 hash_value=$($algo "$filepath" | awk '{print $1}')
 
 # 產生輸出檔案名稱
-output_file="$(basename "$filepath").hash.txt"
+output_file="Signature.txt"
 
 # 寫入檔案
 echo "$hash_value" > "$output_file"
